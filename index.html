@@ -1,75 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-		<meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="으녕이 - 프로필 링크">
-        <meta property="og:description" content="코딩의 ㅋ을 알것같아">
-        <meta property="og:image" content="으녕.jpg">
-        <title>르탄이 - 프로필 링크</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 버킷리스트</title>
     <style>
-        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-        * {
-            font-family: "Pretendard",serif;
-}
-        body{
-            background-color: #293def; 
-        }
-        .profile{
-            width: 100px;
-            height: 100px;
-            border-radius: 100%;
-            border: 2px solid white;
-            background-image: url('으녕.jpg');
-            background-position: center;
-            background-size: cover;
-        }
-        .main{
-            color:white;
-            font-size: 20px;
-            margin-top: 30px;
-            margin-bottom: 10px;
-        }
-        .sub{color:white;
-            font-size: 14px;
-            margin-top: 0px;
-            margin-bottom: 30px;}
-        .wrap{
-            width: 300px;
-            margin: 30px auto 0 auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .wrap>a{
-            width: 300px;
-            height: 50px;
-            background-color: white; 
+        @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap');
+        *{font-family: 'Hahmlet', serif;}
+        .title {
+            color: white;
+            background-color: tomato;
+            font-size: 24px;
+            padding: 4px 14px;
             border-radius: 8px;
-            margin-bottom: 10px;
-            font-size: 14px;
-            font-weight: bold;
-            color:#293def;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            box-shadow: 3px 3px 5px 0px black;
         }
-        .wrap>a:hover {
-            background-color: #a4acef;
-        font-size: 18px;}
+
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+
+        }
+
+        .msg {
+            font-weight: bold;
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+
+        }
     </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
 </head>
-<body>
-<div class="wrap">
-    <div class="profile"></div>
-    <h1 class="main">으녕이</h1>
-    <p class="sub">코딩이 뭐예요...?</p>
-    <a target="_blank" href="https://www.instagram.com/_un0__/">인스타그램</a>
-</div>
+
+<body class="bg-t4 center">
+    <h1 class="title-t2">2023 신년계획</h1>
+    <p class="msg-t4">가보자고</p>
+    <div class="row flex-row wrap">
+        <div class="bucket img1-t3 center">클라이밍 도전</div>
+        <div class="bucket img2-t3 center">체지방률 10%대 진입</div>
+        <div class="bucket img2-t3 center">요가 TTC 취득</div>
+        <div class="bucket img1-t3 center">우쿠렐레 도전</div>
+        <div class="bucket img1-t3 center">티마스터 취득</div>
+        <div class="bucket img2-t3 center">바리스타 1급 취득</div>
+    </div>
+
 </body>
+
 </html>
